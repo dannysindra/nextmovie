@@ -1,3 +1,3 @@
-import { Home as HomePage } from './home'
+import { Home as HomePage } from '../views'
 
 export default HomePage

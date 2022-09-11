@@ -1,13 +1,16 @@
 import React from 'react'
 import { Block } from 'baseui/block'
-// import { withRouter } from 'react-router-dom';
+import { useRouter } from 'next/router'
+import { number } from 'prop-types'
 
 import { InfoButton, AddToWatchlistButton } from '../../elements'
 // import { WatchlistButton } from '../watchlist-button'
 
-export const HeroControlsView = () => {
+export const HeroControls = ({ id }) => {
+  const router = useRouter()
+
   const onClickMore = () => {
-    // history.push(`/movie/${id}`);
+    router.push(`/movies/${id}`)
   }
 
   return (
@@ -19,5 +22,6 @@ export const HeroControlsView = () => {
   )
 }
 
-// export const HeroControls = withRouter(HeroControlsView)
-export const HeroControls = HeroControlsView
+HeroControls.propTypes = {
+  id: number.isRequired,
+}

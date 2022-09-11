@@ -10,10 +10,10 @@ import { HeroControls } from './hero-controls'
 const HERO_TOTAL_ITEMS = 5
 
 const hasAllImages = (movie) =>
-  movie.backdropImgUrl.small &&
-  movie.backdropImgUrl.original &&
-  movie.posterImgUrl.medium &&
-  movie.posterImgUrl.larger
+  movie?.backdropImgUrl?.small &&
+  movie?.backdropImgUrl?.original &&
+  movie?.posterImgUrl?.medium &&
+  movie?.posterImgUrl?.larger
 
 export const Hero = ({ loading, error, data }) => {
   const [index, onReelItemClick] = useReel({
@@ -28,7 +28,7 @@ export const Hero = ({ loading, error, data }) => {
     return null
   }
 
-  if (data && data.upcomingMovies.length > 0) {
+  if (data && data.upcomingMovies?.length > 0) {
     entries = data.upcomingMovies
       .filter(hasAllImages)
       .slice(0, HERO_TOTAL_ITEMS)
