@@ -1,1 +1,1 @@
-export { PaginatedItems } from './paginated-items';
+export { PaginatedItems } from './paginated-items'

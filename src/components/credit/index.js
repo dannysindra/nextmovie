@@ -1,1 +1,1 @@
-export { Credit } from './credit';
+export { Credit } from './credit'

@@ -1,1 +1,1 @@
-export { Modal, SIZE, ROLE } from './modal';
+export { Modal, SIZE, ROLE } from './modal'

@@ -1,13 +1,13 @@
-export { NextMovieTheme } from './styles';
-export { Button } from './button';
-export { Card, CARD_KIND } from './card';
-export { Credit } from './credit';
-export { Deck } from './deck';
-export { Content, Section } from './layout';
-export { Modal } from './modal';
-export { PaginatedItems } from './paginated-items';
-export { PopoverMenu } from './popover-menu';
-export { ReviewItem } from './review-item';
-export { Search } from './search';
-export { Tag } from './tag';
-export { H2, H3, P1 } from './typography';
+export { NextMovieTheme } from './styles'
+export { Button } from './button'
+export { Card, CARD_KIND } from './card'
+export { Credit } from './credit'
+export { Deck } from './deck'
+export { Content, Section } from './layout'
+export { Modal } from './modal'
+export { PaginatedItems } from './paginated-items'
+export { PopoverMenu } from './popover-menu'
+export { ReviewItem } from './review-item'
+export { Search } from './search'
+export { Tag } from './tag'
+export { H2, H3, P1 } from './typography'

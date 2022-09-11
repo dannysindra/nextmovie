@@ -1,1 +1,1 @@
-export { Deck } from './deck';
+export { Deck } from './deck'

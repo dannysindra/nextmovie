@@ -1,2 +1,2 @@
-export { Content } from './content';
-export { Section } from './section';
+export { Content } from './content'
+export { Section } from './section'

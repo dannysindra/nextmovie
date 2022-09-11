@@ -1,1 +1,1 @@
-export { H2, H3, P1 } from './typography';
+export { H2, H3, P1 } from './typography'

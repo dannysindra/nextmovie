@@ -14,6 +14,8 @@ export const Button = React.forwardRef(
   )
 )
 
+Button.displayName = 'Button'
+
 Button.propTypes = {
   children: oneOfType([arrayOf(node), node]).isRequired,
   size: string,

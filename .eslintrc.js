@@ -1,8 +1,15 @@
 module.exports = {
   root: true,
-  // This tells ESLint to load the config from the package `eslint-config-custom`
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    requireConfigFile: false,
+    babelOptions: {
+      parserOpts: {
+        plugins: ['jsx'],
+      },
+    },
+  },
   extends: [
-    'next/core-web-vitals',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'prettier',

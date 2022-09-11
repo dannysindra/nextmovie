@@ -1,1 +1,1 @@
-export { Search, SIZE } from './search';
+export { Search, SIZE } from './search'
