@@ -1,8 +1,8 @@
 import React from 'react'
-import { Search, SIZE } from '../components/search'
+import { Search, SIZE } from '../search'
 
 export default {
-  title: 'Search',
+  title: 'components/Search',
 }
 
 export const size = () => {

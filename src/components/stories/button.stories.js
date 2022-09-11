@@ -1,14 +1,14 @@
 import React from 'react'
 import { action } from '@storybook/addon-actions'
 
-import { Button, KIND, SIZE } from '../components/button'
+import { Button, KIND, SIZE } from '../button'
 
 const actions = {
   onClick: action('clicked'),
 }
 
 export default {
-  title: 'Button',
+  title: 'components/Button',
 }
 
 export const variant = () => (

@@ -1,9 +1,9 @@
 import React from 'react'
-import { Content, Section } from '../components/layout'
-import { P1 } from '../components/typography'
+import { Content, Section } from '../layout'
+import { P1 } from '../typography'
 
 export default {
-  title: 'Layout',
+  title: 'components/Layout',
 }
 
 export const base = () => (

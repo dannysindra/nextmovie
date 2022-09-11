@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tag } from '../components/tag'
+import { Tag } from '../tag'
 
 const style = {
   marginRight: '6px',
@@ -7,7 +7,7 @@ const style = {
 }
 
 export default {
-  title: 'Tag',
+  title: 'components/Tag',
 }
 
 export const base = () => (

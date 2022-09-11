@@ -3,7 +3,7 @@ import { Block } from 'baseui/block'
 import { PLACEMENT } from 'baseui/popover'
 import { action } from '@storybook/addon-actions'
 
-import { PopoverMenu } from '../components/popover-menu'
+import { PopoverMenu } from '../popover-menu'
 
 const actions = {
   onWatchlistClick: action('onWatchlistClick'),
@@ -16,7 +16,7 @@ const menuItems = [
 ]
 
 export default {
-  title: 'PopoverMenu',
+  title: 'components/PopoverMenu',
 }
 
 export const base = () => (

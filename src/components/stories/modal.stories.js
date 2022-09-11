@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import { Button, KIND } from '../components/button'
-import { Modal, SIZE } from '../components/modal'
+import { Button, KIND } from '../button'
+import { Modal, SIZE } from '../modal'
 
 export default {
-  title: 'Modal',
+  title: 'components/Modal',
 }
 
 // eslint-disable-next-line react/prop-types

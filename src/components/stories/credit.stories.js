@@ -1,8 +1,8 @@
 import React from 'react'
-import { Credit } from '../components/credit'
+import { Credit } from '../credit'
 
 export default {
-  title: 'Credit',
+  title: 'components/Credit',
 }
 
 export const base = () => (

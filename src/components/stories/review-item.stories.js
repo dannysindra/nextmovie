@@ -1,7 +1,7 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react'
 import { action } from '@storybook/addon-actions'
-import { ReviewItem } from '../components/review-item'
+import { ReviewItem } from '../review-item'
 
 const reviews = [
   {
@@ -19,7 +19,7 @@ const reviews = [
 const onClick = action('review clicked')
 
 export default {
-  title: 'ReviewItem',
+  title: 'components/ReviewItem',
 }
 
 export const reviewItem = () =>

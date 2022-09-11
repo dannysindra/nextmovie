@@ -1,10 +1,10 @@
 import React from 'react'
 import { action } from '@storybook/addon-actions'
-import { Card } from '../components/card'
-import { Deck } from '../components/deck'
+import { Card } from '../card'
+import { Deck } from '../deck'
 
 export default {
-  title: 'Deck',
+  title: 'components/Deck',
 }
 
 const props = {

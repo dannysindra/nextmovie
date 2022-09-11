@@ -1,8 +1,8 @@
 import React from 'react'
-import { H2, H3, P1 } from '../components/typography'
+import { H2, H3, P1 } from '../typography'
 
 export default {
-  title: 'Typography',
+  title: 'components/Typography',
 }
 
 export const size = () => {

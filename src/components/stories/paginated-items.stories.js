@@ -1,6 +1,6 @@
 import React from 'react'
-import { Credit } from '../components/credit'
-import { PaginatedItems } from '../components/paginated-items'
+import { Credit } from '../credit'
+import { PaginatedItems } from '../paginated-items'
 
 const data = [
   {
@@ -50,7 +50,7 @@ const renderer = (prop) => (
 )
 
 export default {
-  title: 'PaginatedItems',
+  title: 'components/PaginatedItems',
 }
 
 export const base = () => (
