@@ -7,7 +7,7 @@ export const CARD_KIND = {
   thumbnail: 'thumbnail',
 }
 
-const SIZE = {
+export const CARD_SIZE = {
   [CARD_KIND.poster]: {
     small: {
       width: 150,
@@ -69,7 +69,7 @@ export const Card = ({
   title,
   ...rest
 }) => {
-  const size = SIZE[kind]
+  const size = CARD_SIZE[kind]
 
   const Root = {
     style: ({ $theme }) => {

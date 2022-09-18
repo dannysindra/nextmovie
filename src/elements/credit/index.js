@@ -1,1 +1,1 @@
-export { Cast, Crew } from './credit';
+export { Cast, Crew } from './credit'
